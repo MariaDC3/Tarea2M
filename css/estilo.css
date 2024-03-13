@@ -1,0 +1,96 @@
+.superprincipal
+{
+    background-color:rgb(119, 12, 12);
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+   
+    flex-wrap: wrap ;
+    align-content: center;
+
+}
+
+.principal1
+{
+    background-color:rgb(20, 36, 134);
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    width: 400px;
+    height: 600px;
+    flex-wrap: wrap ;
+    align-content: space-around;
+    margin: 5px;
+
+}
+
+.principal2
+{
+    background-color:rgb(8, 72, 90);
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    
+   
+    flex-wrap: wrap ;
+    align-content: space-around;
+    margin: 5px;
+
+}
+.principal3
+{
+    background-color:rgb(7, 40, 117);
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    width: 300px;
+    height: 600px;
+    flex-wrap: wrap ;
+    align-content: space-around;
+
+}
+
+
+.caja1
+{
+    background-color: rgb(225, 23, 23);
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 2;
+    order: 3;
+
+}
+.caja2
+{
+    background-color: rgb(8, 104, 52);
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 5;
+ 
+}
+
+.caja3
+{
+    background-color: rgb(243, 215, 30);
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 3;
+    flex-basis: 5px;
+    order: 1;
+}
+
